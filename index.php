@@ -113,7 +113,7 @@ foreach( $participating_users as $user_id )
       </div>
       <hr>
       <div>
-        Marco Ceppi made this while fully rested in a few hours. [Github](http://github.com/marcoceppi/aud-marathon)
+        Marco Ceppi made this while fully rested in a few hours. <a href=http://github.com/marcoceppi/aud-marathon>Github</a>
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
