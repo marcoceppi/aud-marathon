@@ -102,6 +102,8 @@ foreach( $participating_users as $user_id )
 				<li>Reputation: <?php echo $data['data']['reputation']; ?></li>
 				<li>Up-votes: <?php echo $data['data']['up_votes']; ?></li>
 				<li>Down-votes: <?php echo $data['data']['down_votes']; ?></li>
+				<li>Questions: <?php echo $data['data']['question_count']; ?></li>
+				<li>Answers: <?php echo $data['data']['answer_count']; ?></li>
 			</ul>
 			<br style="clear:both;">
           </div>
