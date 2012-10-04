@@ -29,11 +29,11 @@ foreach( $userstats as $user_details )
 	{
 		if( in_array($item, array('gold', 'silver', 'bronze')) )
 		{
-			$deets[$item] = $val + ($user_details['badge_counts'][$item] - $original['badge_counts'][$item]);
+			$deets[$item] = ($user_details['badge_counts'][$item] - $original['badge_counts'][$item]);
 		}
 		else if(!in_array($item, array('up_votes', 'down_votes')))
 		{
-			$deets[$item] = $val + ($user_details[$item] - $original[$item]);
+			$deets[$item] = ($user_details[$item] - $original[$item]);
 		}
 	}
 
